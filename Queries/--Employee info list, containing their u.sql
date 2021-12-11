@@ -16,6 +16,7 @@ WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 	AND (de.to_date='9999-01-01');
 	
 
+-- List of managers per department
 SELECT  dm.dept_no,
         d.dept_name,
         dm.emp_no,
