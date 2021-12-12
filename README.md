@@ -5,22 +5,16 @@ The purpose of this analsys is to determine the scope of Pewlett Hackard's expos
 # Results
 
 - Employees who have held a total of 133,776 titles with PH are nearing retirement age.
-![Retirement titles](/Resources/retirement_titles.png)<br>
+- Restricing this to unique employees yeilds 90,398 unique employees who are nearing retirement age.
+- A count by title reveals that PH will be losing many senior employees, with 'Senior Engineer' and 'Senior Staff' being the two most prevelant titles amonst near-term retirees.
+- 1549 current employees were born in 1965 and are potential mentorship candidates.
 
--Restricing this to unique employees yeilds 90,398 unique employees who are nearing retirement age.
-![Unique titles](/Resources/unique_titles.png)<br>
-
--A count by title reveals that PH will be losing many senior employees, with 'Senior Engineer' and 'Senior Staff' being the two most prevelant titles amonst near-term retirees.
-![Retiring titles](/Resources/retiring_titles.png)<br>
-
--1549 current employees were born in 1965 and are potential mentorship candidates.
-![Mentorship](/Resources/mentorship_eligibility.png)<br>
-
+![Title Count](/Resources/retiring_titles.png)<br>
 # Summary
 
 ### Count of retiring employees
 While the unique titles table would suggest 90,398 employees will be retiring soon, the actual number is 72,458 when restricted to employees currently employed at PH.  However this is still a significant number.  
-![Active Silvers](/Resources/employed_and_retiring.png)<br>
+![Current Silvers](/Resources/Unique_and_current.png)<br>
 
 ### Count of Mentors
 This analysis only searched for employees born in 1965, but clearly 1549 employess will not be enough to mentor 72,458 open positions.  
