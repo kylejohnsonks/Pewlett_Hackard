@@ -17,9 +17,9 @@ SELECT DISTINCT ON (r.emp_no) r.emp_no,
 	r.first_name,
 	r.last_name,
 	r.title
-INTO unique_titless
+INTO unique_titles
 FROM retirement_titles r
-ORDER BY r.to_date DESC;
+ORDER BY r.emp_no, r.to_date DESC;
 
 --retrieve count of employees by most recent job title who are about to retire
 SELECT COUNT(u.title), u.title
