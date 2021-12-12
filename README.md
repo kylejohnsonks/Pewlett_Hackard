@@ -21,6 +21,6 @@ This analysis only searched for employees born in 1965, but clearly 1,549 employ
 
 ### Future Analysis
 A more thorough analysis of employee data should be conducted to find mentors.  First we should clearly specify what defines a potential mentor, perhaps "a current employee who has been in their present position for at least two years and has the word 'Senior' or 'Manager' in their title".  With a precice definition we could determine how many employees qualify and return:
-     - Mentor count by age
-     - Mentor count by department
-     - Mentor vs Retiree counts by department
+- Mentor count by age
+- Mentor count by department
+- Mentor vs Retiree counts by department
