@@ -24,3 +24,6 @@ A more thorough analysis of employee data should be conducted to find mentors.  
 - Mentor count by age
 - Mentor count by department
 - Mentor vs Retiree counts by department
+
+# Tools used
+- postgres sql
